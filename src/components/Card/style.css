@@ -1,0 +1,38 @@
+
+.card-content {
+    border-radius: 10px;
+    width: 320px;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: white;
+}
+
+.card-content:hover {
+    animation: cardHover .3s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes cardHover {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-5px);
+    }
+}
+
+.card-description {
+    padding: 10px;
+}
+
+h3 {
+    margin: 3px 0;
+}
+
+img {
+    object-fit: cover;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    width: 320px;
+    height: 60%;
+}

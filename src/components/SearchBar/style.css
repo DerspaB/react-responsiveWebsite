@@ -1,0 +1,16 @@
+ input {
+     border-radius: 5px;
+     outline-color: lightgray;
+     padding: 10px;
+     border: 1px solid lightgray;
+ }
+
+ .input-container {
+     display: flex;
+     align-items: center;
+ }
+
+ .start-content {
+     margin-right: -35px;
+     z-index: 0;
+ }

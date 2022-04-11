@@ -1,0 +1,58 @@
+
+ .toolbar-wrapper {
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     max-width: 2000px;
+     margin: 0 auto;
+     padding: 25px;
+     align-items: center;
+ }
+
+ .toolbar {
+    background: var(--primary-color);
+ }
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links h1 {
+    font-size: 30px;
+}
+
+.links ul {
+    display: none;
+}
+
+.searchBar {
+    display: none;
+}
+
+
+.links i {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@media screen and (min-width:700px) {
+
+    .links ul {
+        display: flex;
+        gap: 10px;
+     }
+
+    .searchBar {
+        display: block;
+    }
+    .links i {
+        display: none;
+    }
+}
+
+
+ 
+
+
