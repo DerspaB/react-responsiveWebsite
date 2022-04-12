@@ -1,8 +1,10 @@
 
 .main-wrapper {
+    height: 84vh;
     max-width: 2000px;
     margin: 0 auto;
     padding: 20px;
+    overflow: scroll;
 }
 
 .cards-container {

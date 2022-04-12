@@ -16,11 +16,21 @@ export const SidePanel = ({ closePanel }) => {
             placeholder={'Search'}
             iconStart={<i class='bx bx-search-alt text-light icon-size'></i>}
           />
+          <div className='content-items'>
           <ul>
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
+            <li>Other option</li>
+            <li>Other option</li>
+            <li>Other option</li>
+            <li>Other option</li>
+            <li>Other option</li>
+            <li>Other option</li>
+            <li>Other option</li>
           </ul>
+          </div>
+          
         </div>
         <footer className='panel-footer'>
           <h3>Legal Policies</h3>

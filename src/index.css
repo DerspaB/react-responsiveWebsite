@@ -8,6 +8,7 @@
 }
 
 body {
+    overflow: hidden;
     font-family: 'Anek Tamil', sans-serif;
     background: rgba(244, 241, 241, 0.994);
 }
